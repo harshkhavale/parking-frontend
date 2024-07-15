@@ -41,7 +41,7 @@ const CheckInForm = ({ onCheckIn }) => {
         <label className="block text-gray-700">Manufacturer</label>
         <input
           type="text"
-          className="mt-1 block w-full"
+          className="mt-1 block w-full border"
           value={manufacturer}
           onChange={(e) => setManufacturer(e.target.value)}
           required
@@ -51,7 +51,7 @@ const CheckInForm = ({ onCheckIn }) => {
         <label className="block text-gray-700">Model</label>
         <input
           type="text"
-          className="mt-1 block w-full"
+          className="mt-1 block w-full border"
           value={model}
           onChange={(e) => setModel(e.target.value)}
           required
@@ -61,7 +61,7 @@ const CheckInForm = ({ onCheckIn }) => {
         <label className="block text-gray-700">License Plate</label>
         <input
           type="text"
-          className="mt-1 block w-full"
+          className="mt-1 block w-full border"
           value={licensePlate}
           onChange={(e) => setLicensePlate(e.target.value)}
           required
